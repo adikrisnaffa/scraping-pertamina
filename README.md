@@ -24,7 +24,7 @@ git clone https://github.com/adikrisnaffa/scraping-pertamina.git
 2. Masuk ke direktori proyek:
 
 ```
-cd TEST 18 JUNI 2023
+cd scraping-pertamina
 ```
 3. Instal dependensi yang diperlukan:
 
