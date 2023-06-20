@@ -9,9 +9,9 @@ Proyek ini adalah scraper Python yang digunakan untuk melakukan scraping data da
 - Webdriver (untuk browser yang diinginkan, misalnya ChromeDriver untuk Chrome)
 
 Pastikan telah menginstal Python dan mengatur lingkungan virtual (seperti dengan menggunakan venv). Selanjutnya, instal Selenium dan ChromeDriver menggunakan perintah berikut:
-
+```
 pip install selenium
-
+```
 Pastikan juga telah mengunduh dan menginstal Webdriver yang sesuai untuk browser yang akan digunakan dalam pengujian. Pastikan versi Webdriver sesuai dengan versi browser yang gunakan.
 
 ## Instalasi
