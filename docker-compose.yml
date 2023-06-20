@@ -1,0 +1,14 @@
+version: "3"
+services:
+  test-automation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./Google Search:/app/Google Search
+    depends_on:
+      - chrome
+  chrome:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
