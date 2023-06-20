@@ -67,7 +67,7 @@ def test(context):
         'Harga Produk': product_price_list,
         'URLs': product_seller_url_list
     })
-    product_search_df.to_excel('Shopping.xlsx', index=False)
+    product_search_df.to_csv('Shopping.csv', index=False)
 
 def extract_product_data(products, description_list, price_list, url_list):
     for product in products:
